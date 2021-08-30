@@ -320,12 +320,46 @@ body {
 .team-social-icon:hover {
   fill: #ffffff;
 }
-
+/* clients section */
+.clients-section {
+  padding: 94px 0px;
+}
+.clients-section-title {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  padding: 0;
+  margin: 0px 0px 50px 0px;
+}
+.clients-list {
+  display: flex;
+}
+.clients-item {
+  margin-right: 30px;
+  padding: 16px 32px;
+  border: 1px solid #afb1b8;
+}
+.clients-item:hover {
+  border: 1px solid #2196f3;
+}
+.clients-item:nth-last-child(1) {
+  margin-right: 0;
+}
+.clients-icon {
+  width: 106px;
+  height: 60px;
+  fill: #afb1b8;
+}
+.clients-icon:hover {
+  fill: #2196f3;
+}
 /* footer */
 .footer-section {
   margin: 0;
   padding: 60px 0;
-  background-color: silver;
+  background-color: #2f303a;
 }
 .footer-logo {
   font-family: Raleway;
