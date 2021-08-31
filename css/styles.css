@@ -416,6 +416,13 @@ body {
   padding: 12px;
   align-content: center;
 }
+.footer-gradient {
+  background: linear-gradient(
+    90deg,
+    rgba(0, 212, 255, 0.12398462803089982) 0%,
+    rgba(255, 255, 255, 0.09877454399728647) 0%
+  );
+}
 .footer-social-item:hover {
   background-color: #2196f3;
 }
