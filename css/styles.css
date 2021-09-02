@@ -453,7 +453,11 @@ h6 {
   line-height: 16px;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  margin-bottom: 20px;
   color: #ffffff;
+}
+.footer-social {
+  padding-top: 12px;
 }
 .footer-box {
   display: flex;
